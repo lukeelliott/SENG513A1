@@ -1,0 +1,177 @@
+
+body{
+	font-family: "Times New Roman", Times, serif;
+	background-color: #9DD9D2;
+	margin: 0;
+	z-index: 5;
+	font-size: 24px;
+}
+
+.navbar {
+    top:0px;
+    left:0px;
+    width:100%;
+    height:90px;
+	
+	background-color: #475764;
+    position: fixed;
+	font-size: 24px;
+	z-index: 10;
+}
+
+.mainscreen {
+	top:50px;
+	left:0px;
+	width:100%;
+	position:relative;
+	
+}
+
+.edgeworkScreen {
+	top:60px;
+	left:0px;
+	width:100%;
+	position:relative;
+}
+
+.waxingscreen {
+	top:60px;
+	left:0px;
+	width:100%;
+	position:relative;
+}
+
+.bindingsScreen {
+	top:60px;
+	left:0px;
+	width:100%;
+	position:relative;
+}
+
+.mainscreen p {
+	padding-left: 25px;
+}
+
+.navbar a{
+	padding-top: 25px;
+	padding-left: 10px;
+	display: inline-block;
+	color: #D7263D;
+}
+
+.intro {
+	background-image: url("../images/snowboard+scraper.jpg");
+	width: 100%;
+	top:0px;
+	height: 800px;
+	text-align:center;
+	background-repeat: no-repeat;
+	background-position: center;
+	
+}
+
+.intro h1 {
+	padding-top:60px;
+	color:#D7263D;
+	
+}
+
+.getStartedButton {
+	color:#0197F6;
+	background-color:#475764;
+	border-color:#475764;
+	width: 150px;
+	height: 75px;
+	font-size: 16px;
+}
+
+.getStartedButtonStuff {
+	text-align:center;
+
+}
+
+.gotoWaxingButton {
+	color:#0197F6;
+	background-color:#475764;
+	border-color:#475764;
+	width: 150px;
+	height: 75px;
+	font-size: 16px;
+}
+
+.gotoWaxingStuff {
+	text-align:center;
+}
+
+.gotoBindingStuff {
+	text-align:center;
+}
+
+.gotoBindingButton {
+	color:#0197F6;
+	background-color:#475764;
+	border-color:#475764;
+	width: 150px;
+	height: 75px;
+	font-size: 16px;
+}
+
+.backToHomeStuff {
+	text-align:center;
+}
+
+.backToHomeButton {
+	color:#0197F6;
+	background-color:#475764;
+	border-color:#475764;
+	width: 150px;
+	height: 75px;
+	font-size: 16px;
+}
+
+
+
+.gettingStarted {
+	display:inline-block;
+	height: 500px;
+	text-align: center;
+}
+
+.tuningImage {
+	background-image: url("../images/edge-tuning.jpg");
+	height: 400px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.waxingImage {
+	background-image: url("../images/snowboard-waxing.jpg");
+	height: 800px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.bindingImage {
+	background-image: url("../images/binding-angles.jpg");
+	height: 550px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.waxingscreen table{
+    padding:20px;
+    width:100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.waxingscreen td {
+    border: 2px solid #0197F6;
+    padding: 2px;
+}
+
+tr:nth-child(even) {
+    background-color: #0197F6;
+}
+
+
